@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bblGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="bblGradSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Shield -->
+  <rect width="64" height="64" rx="16" fill="#0A0F1D"/>
+  <!-- Geometric Byte Blocks and "B" Monogram -->
+  <path d="M18 16H34C40.6274 16 46 20.4772 46 26C46 29.5693 43.8647 32.7003 40.597 34.3989C44.7571 36.1911 47.5 39.8829 47.5 44C47.5 49.5228 42.1274 54 35.5 54H18C16.8954 54 16 53.1046 16 52V18C16 16.8954 16.8954 16 18 16Z" fill="url(#bblGrad)"/>
+  <!-- Inner Cutouts -->
+  <rect x="23" y="22" width="11" height="9" rx="3" fill="#0A0F1D"/>
+  <rect x="23" y="37" width="13" height="10" rx="3" fill="#0A0F1D"/>
+  <!-- Byte Node Pulse Accent -->
+  <circle cx="48" cy="18" r="4" fill="#38BDF8"/>
+</svg>

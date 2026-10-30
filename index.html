@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>BetaByte Labs — Building Beyond Bytes | Custom Software & AI Development</title>
+  <meta name="title" content="BetaByte Labs — Building Beyond Bytes | Custom Software & AI Development" />
+  <meta name="description" content="BetaByte Labs is an elite software engineering company transforming ideas into powerful digital experiences. Custom software, enterprise web apps, mobile solutions, and AI integration for startups and enterprises worldwide." />
+  <meta name="keywords" content="BetaByte Labs, custom software development, web application development, mobile app development, SaaS product development, AI integration, enterprise software, software engineering company" />
+  <meta name="author" content="BetaByte Labs" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://betabytelabs.com/" />
+  <meta property="og:title" content="BetaByte Labs — Building Beyond Bytes" />
+  <meta property="og:description" content="We turn ideas into powerful digital experiences through modern software engineering, AI integration, and scalable cloud solutions." />
+  <meta property="og:image" content="/assets/hero_architecture.jpg" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://betabytelabs.com/" />
+  <meta property="twitter:title" content="BetaByte Labs — Building Beyond Bytes" />
+  <meta property="twitter:description" content="We turn ideas into powerful digital experiences through modern software engineering, AI integration, and scalable cloud solutions." />
+  <meta property="twitter:image" content="/assets/hero_architecture.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fonts: Google Fonts Plus Jakarta Sans & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data JSON-LD for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "BetaByte Labs",
+    "alternateName": "BetaByte Labs Inc.",
+    "url": "https://betabytelabs.com",
+    "logo": "https://betabytelabs.com/favicon.svg",
+    "slogan": "Building Beyond Bytes.",
+    "description": "BetaByte Labs is a technology and software development company building innovative, scalable, and reliable digital solutions for startups and enterprises globally.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://github.com/kawserfdev",
+      "https://www.linkedin.com/company/betabytelabs/"
+    ],
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "USD",
+      "lowPrice": "10000"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Global Announcement / Availability Bar -->
+  <div class="top-announcement-bar" id="announcement-bar">
+    <div class="container announcement-content">
+      <div class="announcement-badge">
+        <span class="pulse-indicator"></span>
+        <span class="announcement-text">Now Booking Q4 & Q1 Product Engineering Sprints</span>
+      </div>
+      <a href="#contact" class="announcement-link">Schedule Strategic Discovery &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" aria-label="BetaByte Labs Home">
+        <div class="logo-mark">
+          <svg viewBox="0 0 40 40" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="#0A0F1D"/>
+            <path d="M11 10H21C25.5 10 29 13 29 17C29 19.3 27.5 21.3 25.3 22.4C28 23.6 29.8 26.2 29.8 29.2C29.8 33.2 26.2 36 21.5 36H11C10.4 36 10 35.6 10 35V11C10 10.4 10.4 10 11 10Z" fill="url(#headerGrad)"/>
+            <rect x="15" y="14" width="7" height="6" rx="2" fill="#0A0F1D"/>
+            <rect x="15" y="24" width="8.5" height="7" rx="2" fill="#0A0F1D"/>
+            <circle cx="31" cy="11" r="2.5" fill="#38BDF8"/>
+            <defs>
+              <linearGradient id="headerGrad" x1="10" y1="10" x2="30" y2="36" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#2563EB"/>
+                <stop offset="1" stop-color="#7C3AED"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">BETABYTE</span>
+          <span class="brand-tag">LABS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" data-nav="home">Home</a>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#services" class="nav-link" data-nav="services">
+              Services
+              <svg class="dropdown-caret" viewBox="0 0 12 12" width="12" height="12" fill="none"><path d="M2.5 4.5L6 8L9.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <!-- Dropdown Menu -->
+            <div class="nav-dropdown-menu">
+              <div class="dropdown-grid">
+                <a href="#services" class="dropdown-item" data-service-select="custom-software">
+                  <span class="dropdown-icon">💻</span>
+                  <div>
+                    <strong class="dropdown-title">Custom Software</strong>
+                    <p class="dropdown-desc">Tailored architectures engineered for unique business workflows.</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-item" data-service-select="web-development">
+                  <span class="dropdown-icon">🌐</span>
+                  <div>
+                    <strong class="dropdown-title">Web Applications</strong>
+                    <p class="dropdown-desc">High-performance Next.js & React enterprise portals.</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-item" data-service-select="mobile-development">
+                  <span class="dropdown-icon">📱</span>
+                  <div>
+                    <strong class="dropdown-title">Mobile App Development</strong>
+                    <p class="dropdown-desc">Native-feel iOS & Android apps built with Flutter.</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-item" data-service-select="backend-api">
+                  <span class="dropdown-icon">⚡</span>
+                  <div>
+                    <strong class="dropdown-title">Backend & APIs</strong>
+                    <p class="dropdown-desc">High-throughput microservices, NestJS, and cloud infrastructure.</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-item" data-service-select="saas-development">
+                  <span class="dropdown-icon">🚀</span>
+                  <div>
+                    <strong class="dropdown-title">SaaS Product Development</strong>
+                    <p class="dropdown-desc">Multi-tenant platforms engineered to scale from MVP to Series B.</p>
+                  </div>
+                </a>
+                <a href="#services" class="dropdown-item" data-service-select="ai-automation">
+                  <span class="dropdown-icon">🤖</span>
+                  <div>
+                    <strong class="dropdown-title">AI Integration & Automation</strong>
+                    <p class="dropdown-desc">Private LLM pipelines, autonomous agents, and analytics.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#solutions" class="nav-link" data-nav="solutions">Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link" data-nav="projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#process" class="nav-link" data-nav="process">Process</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link" data-nav="about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link" data-nav="blog">Blog</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Action CTA -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-nav-cta">
+          Let's Talk
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide-out Menu -->
+    <div class="mobile-menu-drawer" id="mobile-drawer">
+      <div class="mobile-menu-inner">
+        <div class="mobile-menu-header">
+          <span class="mobile-brand-title">BetaByte Labs</span>
+          <button class="mobile-close-btn" id="mobile-close-btn" aria-label="Close menu">&times;</button>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a href="#" class="mobile-nav-link" data-target="home">Home</a></li>
+          <li><a href="#services" class="mobile-nav-link" data-target="services">Services</a></li>
+          <li><a href="#solutions" class="mobile-nav-link" data-target="solutions">Solutions</a></li>
+          <li><a href="#projects" class="mobile-nav-link" data-target="projects">Featured Projects</a></li>
+          <li><a href="#process" class="mobile-nav-link" data-target="process">Our Process</a></li>
+          <li><a href="#about" class="mobile-nav-link" data-target="about">About BetaByte</a></li>
+          <li><a href="#blog" class="mobile-nav-link" data-target="blog">Engineering Insights</a></li>
+          <li><a href="#contact" class="mobile-nav-link" data-target="contact">Contact Us</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+          <a href="#contact" class="btn btn-primary btn-block">Start a Project</a>
+          <p class="drawer-contact-info">inquiries@betabytelabs.com</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- SECTION 1 & 2: HERO SECTION (Inspired by Reference UI Layout) -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <!-- Hero Left Column: Brand Statement & Dynamic Slider -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Enterprise Software & AI Engineering</span>
+          </div>
+
+          <h1 class="hero-title">
+            Building Digital Products That Move Businesses Forward.
+          </h1>
+
+          <p class="hero-subtitle">
+            We help startups and businesses transform ambitious ideas into powerful digital solutions through modern software engineering, innovative technology, and reliable development.
+          </p>
+
+          <p class="hero-partner-note">
+            Partner with us and see what's possible.
+          </p>
+
+          <!-- Hero Dual CTA Buttons matching Reference Design -->
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-navy btn-hero-primary" id="btn-hero-start">
+              <span>Start Your Project</span>
+            </a>
+            <a href="#projects" class="btn btn-blue btn-hero-secondary" id="btn-hero-services">
+              <span>See Our Work</span>
+            </a>
+          </div>
+
+          <!-- Hero Reference-Style Spotlight Feature Slider -->
+          <div class="hero-spotlight-card" id="hero-spotlight">
+            <div class="spotlight-header">
+              <span class="spotlight-tag" id="spotlight-tag">CAPABILITY FOCUS</span>
+              <div class="spotlight-controls">
+                <div class="spotlight-dots" id="spotlight-dots" aria-label="Feature slides">
+                  <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+                  <button class="dot" data-index="1" aria-label="Slide 2"></button>
+                  <button class="dot" data-index="2" aria-label="Slide 3"></button>
+                  <button class="dot" data-index="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="spotlight-arrows">
+                  <button class="arrow-btn" id="spotlight-prev" aria-label="Previous Slide">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="none"><path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </button>
+                  <button class="arrow-btn" id="spotlight-next" aria-label="Next Slide">
+                    <svg viewBox="0 0 20 20" width="16" height="16" fill="none"><path d="M7.5 5L12.5 10L7.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="spotlight-body">
+              <h3 class="spotlight-title" id="spotlight-title">Enterprise Solutions</h3>
+              <p class="spotlight-desc" id="spotlight-desc">
+                We build high-end enterprise applications that streamline your business processes, help you operate more efficiently, and grow faster.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Architecture Visual with High-Tech Overlays -->
+        <div class="hero-visual-wrapper">
+          <div class="hero-image-frame">
+            <img 
+              src="/assets/hero_architecture.jpg" 
+              alt="BetaByte Labs Modern Architecture Headquarters" 
+              class="hero-main-img" 
+              width="800" 
+              height="600"
+              loading="eager"
+            />
+            
+            <!-- Glassmorphism Floating Metric Badges -->
+            <div class="floating-stat-badge badge-top-right">
+              <div class="badge-icon-wrap">🛡️</div>
+              <div class="badge-text-wrap">
+                <div class="badge-val">99.99%</div>
+                <div class="badge-lbl">Reliability & SLA</div>
+              </div>
+            </div>
+
+            <div class="floating-stat-badge badge-bottom-left">
+              <div class="badge-icon-wrap">⚡</div>
+              <div class="badge-text-wrap">
+                <div class="badge-val">50+ Shipped</div>
+                <div class="badge-lbl">Production Products</div>
+              </div>
+            </div>
+
+            <div class="hero-live-status-pill">
+              <span class="status-dot-live"></span>
+              <span>Global Client Engineering Hub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TRUSTED TECHNOLOGY & EXPERTISE -->
+    <section class="tech-stack-section" id="technology">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">TECHNICAL MASTERY</span>
+          <h2 class="section-title">Trusted Technology & Architecture</h2>
+          <p class="section-subtitle">
+            We build exclusively with battle-tested, modern technologies engineered for security, high throughput, and long-term maintainability.
+          </p>
+        </div>
+
+        <!-- Technology Category Filters -->
+        <div class="tech-filter-pills" id="tech-filters">
+          <button class="tech-filter-btn active" data-filter="all">All Tech</button>
+          <button class="tech-filter-btn" data-filter="frontend">Frontend & Mobile</button>
+          <button class="tech-filter-btn" data-filter="backend">Backend & Database</button>
+          <button class="tech-filter-btn" data-filter="cloud">Cloud & DevOps</button>
+          <button class="tech-filter-btn" data-filter="ai">AI & Automation</button>
+        </div>
+
+        <!-- Technology Grid -->
+        <div class="tech-grid" id="tech-grid">
+          <!-- Populated dynamically via JS from data.js -->
+        </div>
+
+        <!-- Tech Trust Footnote -->
+        <div class="tech-commitment-banner">
+          <div class="commitment-item">
+            <span class="icon">🔒</span>
+            <span>Zero Proprietary Lock-In</span>
+          </div>
+          <div class="commitment-divider"></div>
+          <div class="commitment-item">
+            <span class="icon">📋</span>
+            <span>Clean Architecture & Strict Type Safety</span>
+          </div>
+          <div class="commitment-divider"></div>
+          <div class="commitment-item">
+            <span class="icon">🚀</span>
+            <span>Production CI/CD Automated from Day 1</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: SERVICES OVERVIEW -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">WHAT WE BUILD</span>
+          <h2 class="section-title">End-to-End Engineering Services</h2>
+          <p class="section-subtitle">
+            From strategic discovery to scalable cloud deployment, we deliver custom software solutions that create sustained competitive advantages.
+          </p>
+        </div>
+
+        <div class="services-grid" id="services-grid">
+          <!-- Populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: WHY CHOOSE BETABYTE LABS -->
+    <section class="why-us-section" id="why-us">
+      <div class="container">
+        <div class="why-us-layout">
+          <div class="why-us-intro">
+            <span class="section-kicker">THE BETABYTE ADVANTAGE</span>
+            <h2 class="section-title">Engineered for Reliability. Driven by Business Impact.</h2>
+            <p class="section-desc">
+              We operate not as a vendor, but as an embedded technical co-founder. We combine commercial intuition with world-class engineering discipline to eliminate risk and maximize ROI.
+            </p>
+            
+            <div class="why-us-stats-block">
+              <div class="stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Full IP & Code Ownership From Day 1</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">2-Week</span>
+                <span class="stat-label">Predictable Agile Sprints with Live Demos</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">0</span>
+                <span class="stat-label">Hidden Fees — Transparent Scope & Roadmap</span>
+              </div>
+            </div>
+
+            <div class="why-us-cta-wrap">
+              <a href="#contact" class="btn btn-primary">Partner With BetaByte Labs</a>
+            </div>
+          </div>
+
+          <div class="why-us-cards-grid">
+            <div class="why-card">
+              <div class="why-icon-badge">🎯</div>
+              <h3 class="why-title">Business-Focused Solutions</h3>
+              <p class="why-text">Every feature we write maps directly to business metrics: user retention, revenue throughput, or operational speed.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-badge">⚡</div>
+              <h3 class="why-title">Modern Technology</h3>
+              <p class="why-text">We select modern, battle-tested technology stacks that attract top talent, prevent stagnation, and ensure rapid iterations.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-badge">🏛️</div>
+              <h3 class="why-title">Scalable Architecture</h3>
+              <p class="why-text">Decoupled microservices and robust databases designed to handle millions of transactions without costly rewrites.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-badge">💎</div>
+              <h3 class="why-title">Quality-Driven Development</h3>
+              <p class="why-text">Strict peer reviews, automated regression suites, and static analysis guarantee production stability and zero tech debt.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-badge">💬</div>
+              <h3 class="why-title">Transparent Communication</h3>
+              <p class="why-text">Direct access to your dedicated senior engineering pod via Slack, async updates, and weekly sprint planning sessions.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-badge">🤝</div>
+              <h3 class="why-title">Long-Term Technical Support</h3>
+              <p class="why-text">We don’t abandon you post-launch. Comprehensive SLAs, proactive monitoring, security updates, and performance tuning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: FEATURED PROJECTS (PORTFOLIO & CASE STUDIES) -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">PROVEN CASE STUDIES</span>
+          <h2 class="section-title">Demonstrated Engineering Excellence</h2>
+          <p class="section-subtitle">
+            Explore how we build mission-critical web applications, AI automation platforms, and scalable enterprise products.
+          </p>
+        </div>
+
+        <!-- Project Category Filters -->
+        <div class="project-filters" id="project-filters">
+          <button class="filter-pill active" data-category="all">All Projects</button>
+          <button class="filter-pill" data-category="fintech">Fintech & Analytics</button>
+          <button class="filter-pill" data-category="ai">AI & Automation</button>
+          <button class="filter-pill" data-category="health">HealthTech</button>
+          <button class="filter-pill" data-category="cloud">Enterprise Cloud</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: SOLUTIONS BY BUSINESS NEED -->
+    <section class="solutions-section" id="solutions">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">STRATEGIC ALIGNMENT</span>
+          <h2 class="section-title">Solutions Tailored to Your Business Horizon</h2>
+          <p class="section-subtitle">
+            Whether launching a venture-backed startup or modernizing a legacy enterprise stack, we deliver the exact operational and technical framework you need.
+          </p>
+        </div>
+
+        <div class="solutions-tabs-container">
+          <div class="solutions-nav" id="solutions-nav">
+            <!-- Tabs injected by JS -->
+          </div>
+          <div class="solution-display-card" id="solution-display">
+            <!-- Dynamic content injected by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: OUR DEVELOPMENT PROCESS -->
+    <section class="process-section" id="process">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">METHODOLOGY</span>
+          <h2 class="section-title">Our 6-Step Development Process</h2>
+          <p class="section-subtitle">
+            A disciplined, transparent delivery lifecycle that turns vision into high-yield software with clockwork predictability.
+          </p>
+        </div>
+
+        <div class="process-timeline" id="process-timeline">
+          <!-- Injected via data.js & main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: INTERACTIVE SCOPE & BUDGET ESTIMATOR -->
+    <section class="estimator-section" id="estimator">
+      <div class="container">
+        <div class="estimator-card">
+          <div class="estimator-header">
+            <div class="estimator-intro">
+              <span class="section-kicker">TRANSPARENT PLANNING</span>
+              <h2 class="estimator-title">Interactive Project Scope & Budget Calculator</h2>
+              <p class="estimator-desc">
+                Select your parameters below to get an instant scope breakdown, estimated development timeline, and investment range.
+              </p>
+            </div>
+            <div class="estimator-summary-box" id="estimator-summary">
+              <div class="summary-label">Estimated Investment</div>
+              <div class="summary-price" id="calc-price-range">$25,000 – $45,000</div>
+              <div class="summary-timeline" id="calc-timeline">Estimated Timeline: 8 – 12 Weeks</div>
+              <button class="btn btn-primary btn-block" id="calc-prefill-btn">Apply to Inquiry Form &rarr;</button>
+            </div>
+          </div>
+
+          <div class="estimator-controls">
+            <!-- Step 1: Project Type -->
+            <div class="calc-group">
+              <label class="calc-label">1. Primary Product Type</label>
+              <div class="calc-options" data-calc="type">
+                <button class="calc-option-btn active" data-value="web" data-factor="1.0">Web Application / SaaS</button>
+                <button class="calc-option-btn" data-value="mobile" data-factor="1.15">Mobile App (iOS & Android)</button>
+                <button class="calc-option-btn" data-value="cross" data-factor="1.45">Cross-Platform (Web + Mobile)</button>
+                <button class="calc-option-btn" data-value="enterprise" data-factor="1.6">Enterprise Core System</button>
+              </div>
+            </div>
+
+            <!-- Step 2: Stage -->
+            <div class="calc-group">
+              <label class="calc-label">2. Development Maturity</label>
+              <div class="calc-options" data-calc="stage">
+                <button class="calc-option-btn active" data-value="mvp" data-factor="1.0">Startup MVP (Launch Ready)</button>
+                <button class="calc-option-btn" data-value="growth" data-factor="1.4">Scale-Up / V2 Expansion</button>
+                <button class="calc-option-btn" data-value="modernization" data-factor="1.5">Legacy Refactoring & Re-platform</button>
+              </div>
+            </div>
+
+            <!-- Step 3: Intelligence & Capabilities -->
+            <div class="calc-group">
+              <label class="calc-label">3. Advanced Capabilities Required</label>
+              <div class="calc-options-multi" data-calc="capabilities">
+                <button class="calc-toggle-btn active" data-cost="0">Auth & Role-Based Access (Included)</button>
+                <button class="calc-toggle-btn" data-cost="5000">AI / LLM Intelligence Pipeline</button>
+                <button class="calc-toggle-btn" data-cost="4000">Stripe / Global Payment Flow</button>
+                <button class="calc-toggle-btn" data-cost="6000">Real-Time Telemetry & WebSockets</button>
+                <button class="calc-toggle-btn" data-cost="4500">HIPAA / SOC-2 Compliance Hardening</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: ABOUT US PAGE / SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text-content">
+            <span class="section-kicker">ABOUT BETABYTE LABS</span>
+            <h2 class="section-title">Turning Visionary Ideas into Scalable Digital Realities</h2>
+            <p class="about-intro">
+              BetaByte Labs was founded on a singular conviction: exceptional software is not defined by lines of code, but by the business momentum it unlocks.
+            </p>
+            <p class="about-body">
+              We are an international technology partner serving startups, venture studios, and scaling enterprises across North America, the UK, and Europe. Our engineering pods blend senior architectural mastery with modern rapid-deployment toolchains.
+            </p>
+            
+            <div class="mission-vision-grid">
+              <div class="mv-card">
+                <div class="mv-badge">MISSION</div>
+                <h3 class="mv-title">To empower businesses with innovative, reliable, and scalable technology solutions.</h3>
+                <p class="mv-desc">We build durable engineering assets that enable founders and executives to outcompete and scale with absolute technical confidence.</p>
+              </div>
+              <div class="mv-card">
+                <div class="mv-badge">VISION</div>
+                <h3 class="mv-title">To become the world’s most trusted partner for next-generation digital products.</h3>
+                <p class="mv-desc">Setting the global benchmark for code craftsmanship, human-centered UX, and ethical AI integration.</p>
+              </div>
+            </div>
+
+            <div class="about-principles-list">
+              <div class="principle-item">
+                <strong>Pragmatic Innovation:</strong> We leverage state-of-the-art tech (Next.js, NestJS, LLMs) only when it produces concrete business advantages.
+              </div>
+              <div class="principle-item">
+                <strong>Radical Transparency:</strong> Clear roadmaps, unvarnished architectural risk assessments, and zero proprietary barriers.
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual-column">
+            <div class="about-card-banner">
+              <div class="banner-gradient-header">
+                <div class="tag-live">GLOBAL REACH</div>
+                <h3>International Delivery Standards</h3>
+                <p>Delivering high-precision software to founders and enterprises across the US, UK, Canada, and Europe.</p>
+              </div>
+              
+              <div class="about-stats-list">
+                <div class="about-stat-row">
+                  <span class="stat-name">Headquarters & Delivery</span>
+                  <span class="stat-val">San Francisco, CA & Global Hubs</span>
+                </div>
+                <div class="about-stat-row">
+                  <span class="stat-name">Average Engineer Experience</span>
+                  <span class="stat-val">7+ Years in Production Systems</span>
+                </div>
+                <div class="about-stat-row">
+                  <span class="stat-name">Target Client Markets</span>
+                  <span class="stat-val">USA, UK, Canada, EU</span>
+                </div>
+                <div class="about-stat-row">
+                  <span class="stat-name">IP Ownership</span>
+                  <span class="stat-val">100% Retained by Client</span>
+                </div>
+              </div>
+
+              <div class="culture-quote-box">
+                <p class="quote-text">"Building beyond bytes means engineering software that solves real business challenges, drives revenue, and stands the test of scale."</p>
+                <div class="quote-author">— BetaByte Labs Engineering Council</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 11: BLOG & ENGINEERING INSIGHTS -->
+    <section class="blog-section" id="blog">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">KNOWLEDGE BASE</span>
+          <h2 class="section-title">Engineering Insights & Strategy</h2>
+          <p class="section-subtitle">
+            Perspectives on software architecture, modern web frameworks, AI integration, and product scaling from our team.
+          </p>
+        </div>
+
+        <!-- Blog Controls: Search and Categories -->
+        <div class="blog-controls-bar">
+          <div class="blog-search-wrap">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="none" class="search-icon"><circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/><path d="M12.5 12.5L17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <input type="text" id="blog-search-input" placeholder="Search insights (e.g., NestJS, AI, MVP, Architecture)..." aria-label="Search articles" />
+          </div>
+          <div class="blog-category-pills" id="blog-categories">
+            <button class="blog-cat-btn active" data-cat="all">All</button>
+            <button class="blog-cat-btn" data-cat="Software Development">Software Development</button>
+            <button class="blog-cat-btn" data-cat="AI & Automation">AI & Automation</button>
+            <button class="blog-cat-btn" data-cat="SaaS & Startups">SaaS & Startups</button>
+            <button class="blog-cat-btn" data-cat="Engineering Insights">Engineering</button>
+          </div>
+        </div>
+
+        <div class="blog-grid" id="blog-grid">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 12: CONTACT & LEAD GENERATION (High Conversion) -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <!-- Left Info Column -->
+          <div class="contact-info-col">
+            <span class="section-kicker text-blue">LET'S CONNECT</span>
+            <h2 class="contact-heading">Ready to Turn Your Vision into Reality?</h2>
+            <p class="contact-lead-desc">
+              Schedule a technical discovery session with our senior architects. We analyze your requirements, identify architectural risks, and present a clear path to execution.
+            </p>
+
+            <div class="contact-highlights">
+              <div class="contact-highlight-item">
+                <div class="h-icon">⚡</div>
+                <div>
+                  <strong>Fast Technical Turnaround</strong>
+                  <p>Comprehensive scope and architectural estimate delivered within 48 hours.</p>
+                </div>
+              </div>
+              <div class="contact-highlight-item">
+                <div class="h-icon">🛡️</div>
+                <div>
+                  <strong>Strict Confidentiality</strong>
+                  <p>All discussions protected under our mutual Non-Disclosure Agreement (NDA).</p>
+                </div>
+              </div>
+              <div class="contact-highlight-item">
+                <div class="h-icon">🌐</div>
+                <div>
+                  <strong>Global Client Coverage</strong>
+                  <p>Serving founders and companies across USA, UK, Canada, and Europe.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="direct-contact-box">
+              <div class="direct-title">Direct Inquiries:</div>
+              <a href="mailto:inquiries@betabytelabs.com" class="direct-email">inquiries@betabytelabs.com</a>
+              <div class="response-pledge">
+                <span class="pledge-dot"></span>
+                <span>Response guaranteed within 24 business hours</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Form Column -->
+          <div class="contact-form-col">
+            <div class="contact-form-card">
+              <h3 class="form-title">Start a Project Inquiry</h3>
+              <p class="form-sub">Tell us about your project requirements and goals.</p>
+
+              <form id="lead-form" novalidate>
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="client-name">Your Full Name *</label>
+                    <input type="text" id="client-name" name="name" placeholder="Sarah Jenkins" required />
+                    <span class="field-error" id="err-name"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="client-email">Business Email *</label>
+                    <input type="email" id="client-email" name="email" placeholder="sarah@company.com" required />
+                    <span class="field-error" id="err-email"></span>
+                  </div>
+                </div>
+
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="client-company">Company / Startup Name *</label>
+                    <input type="text" id="client-company" name="company" placeholder="Acme Technologies" required />
+                    <span class="field-error" id="err-company"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="client-service">Service Interested In *</label>
+                    <select id="client-service" name="service" required>
+                      <option value="" disabled selected>Select a primary service</option>
+                      <option value="Custom Software Development">Custom Software Development</option>
+                      <option value="Web Application Development">Web Application Development</option>
+                      <option value="Mobile App Development">Mobile App Development</option>
+                      <option value="Backend & API Development">Backend & API Development</option>
+                      <option value="SaaS Product Development">SaaS Product Development</option>
+                      <option value="AI Integration & Automation">AI Integration & Automation</option>
+                      <option value="Startup MVP Package">Startup MVP Acceleration</option>
+                    </select>
+                    <span class="field-error" id="err-service"></span>
+                  </div>
+                </div>
+
+                <!-- Budget Selection Pills -->
+                <div class="form-group">
+                  <label>Estimated Project Budget (USD)</label>
+                  <div class="budget-selector-grid">
+                    <label class="budget-pill">
+                      <input type="radio" name="budget" value="$10k – $25k" />
+                      <span>$10k – $25k</span>
+                    </label>
+                    <label class="budget-pill">
+                      <input type="radio" name="budget" value="$25k – $50k" checked />
+                      <span>$25k – $50k</span>
+                    </label>
+                    <label class="budget-pill">
+                      <input type="radio" name="budget" value="$50k – $100k" />
+                      <span>$50k – $100k</span>
+                    </label>
+                    <label class="budget-pill">
+                      <input type="radio" name="budget" value="$100k+" />
+                      <span>$100k+</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="client-details">Project Details & Objectives *</label>
+                  <textarea id="client-details" name="details" rows="4" placeholder="Briefly describe what you're building, target timeline, key challenges, or existing technology stack..." required></textarea>
+                  <span class="field-error" id="err-details"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block btn-submit" id="submit-btn">
+                  <span class="btn-text">Submit Project Inquiry</span>
+                  <span class="btn-spinner" aria-hidden="true"></span>
+                </button>
+
+                <p class="form-privacy-note">
+                  🔒 Your data is protected by strict confidentiality. No spam, ever.
+                </p>
+              </form>
+
+              <!-- Success State Confirmation Container -->
+              <div class="form-success-state" id="form-success-state" style="display: none;">
+                <div class="success-icon-wrap">✓</div>
+                <h3>Inquiry Successfully Received!</h3>
+                <p>Thank you for reaching out to BetaByte Labs. A Senior Technical Director will review your specifications and reply to you within <strong>24 business hours</strong>.</p>
+                <div class="success-actions">
+                  <button class="btn btn-outline" id="reset-form-btn">Submit Another Request</button>
+                  <a href="#projects" class="btn btn-primary">Browse Our Work</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 13: FINAL CTA SECTION (Pre-Footer) -->
+    <section class="final-cta-section">
+      <div class="container text-center">
+        <span class="final-kicker">JOIN OUR SUCCESS STORIES</span>
+        <h2 class="final-title">Have an Idea? Let's Build Something Great Together.</h2>
+        <p class="final-desc">
+          Let's discuss your vision and explore how BetaByte Labs can help turn it into reality with reliable code, modern architecture, and rapid execution.
+        </p>
+        <div class="final-actions">
+          <a href="#contact" class="btn btn-white-cta">Start Your Project &rarr;</a>
+          <a href="#projects" class="btn btn-transparent-cta">Explore Case Studies</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SECTION 14: COMPREHENSIVE FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand-col">
+        <a href="#" class="footer-logo">
+          <svg viewBox="0 0 32 32" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="#1E293B"/>
+            <path d="M9 8H17C20.5 8 23 10.5 23 13.5C23 15.5 21.8 17.2 20 18C22.2 19 23.5 21.2 23.5 23.5C23.5 27 20.5 29 17 29H9V8Z" fill="url(#footGrad)"/>
+            <circle cx="25" cy="8" r="2" fill="#38BDF8"/>
+            <defs>
+              <linearGradient id="footGrad" x1="9" y1="8" x2="24" y2="29" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#3B82F6"/>
+                <stop offset="1" stop-color="#8B5CF6"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <span class="brand-text-footer">BetaByte Labs</span>
+        </a>
+        <p class="footer-tagline">"Building Beyond Bytes."</p>
+        <p class="footer-description">
+          We turn ideas into powerful digital experiences through cutting-edge engineering, AI integration, and scalable architecture.
+        </p>
+        <div class="footer-status-tag">
+          <span class="footer-status-dot"></span>
+          <span>Systems Operational • 99.99% Reliability</span>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-heading">Company</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#projects">Our Projects</a></li>
+          <li><a href="#process">Development Process</a></li>
+          <li><a href="#blog">Blog & Insights</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-heading">Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services" data-service-select="custom-software">Custom Software</a></li>
+          <li><a href="#services" data-service-select="web-development">Web Development</a></li>
+          <li><a href="#services" data-service-select="mobile-development">Mobile App Development</a></li>
+          <li><a href="#services" data-service-select="backend-api">Backend & API</a></li>
+          <li><a href="#services" data-service-select="saas-development">SaaS Development</a></li>
+          <li><a href="#services" data-service-select="ai-automation">AI & Automation</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4 class="footer-heading">Connect</h4>
+        <ul class="footer-links">
+          <li>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <span>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:inquiries@betabytelabs.com">
+              <span>Email Us</span>
+            </a>
+          </li>
+        </ul>
+        <div class="footer-contact-direct">
+          <p class="direct-label">Client Support Desk:</p>
+          <a href="mailto:support@betabytelabs.com">support@betabytelabs.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="footer-bottom-flex">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> BetaByte Labs Inc. All rights reserved.
+        </p>
+        <div class="footer-legal-links">
+          <a href="#privacy-policy" id="link-privacy">Privacy Policy</a>
+          <span class="sep">•</span>
+          <a href="#terms-of-service" id="link-terms">Terms of Service</a>
+          <span class="sep">•</span>
+          <a href="#security" id="link-security">Security & Compliance</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL: Case Study In-Depth Viewer -->
+  <div class="modal-overlay" id="case-study-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div class="modal-content" id="case-study-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Blog Article Reader -->
+  <div class="modal-overlay" id="article-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-container modal-article-container">
+      <button class="modal-close-btn" id="article-close-btn" aria-label="Close article">&times;</button>
+      <div class="modal-content" id="article-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Service In-Depth Breakdown Modal -->
+  <div class="modal-overlay" id="service-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="service-close-btn" aria-label="Close service details">&times;</button>
+      <div class="modal-content" id="service-modal-content">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Main JavaScript Application Module -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
